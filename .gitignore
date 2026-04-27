@@ -1,4 +1,4 @@
-.data
 .venv
 .vscode
-.processing
+data/
+processing/
