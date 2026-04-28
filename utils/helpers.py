@@ -1,4 +1,4 @@
-# grading scheme as at 2024-06-30 (spring 2024)
+# grading scheme as at 2024-06-30 (spring 2024): latest update at a college
 
 def letter_grade_fall2024(grades):
     grade_ranges = [
