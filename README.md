@@ -12,6 +12,7 @@ Depending on the user, adopting the code base may include the following steps:
 
 - Create a "data" directory. I suggest using a directory structure similar to the one below:
 
+```
 .
 ├── processed
 │   └── winter-2026
@@ -23,7 +24,7 @@ Depending on the user, adopting the code base may include the following steps:
             ├── bus-111a
             ├── bus-111e
             └── bus-239b
-
+```
 
 - Create new modules in the "processing" directory. The objective is to ensure each module is customised to process data exported from external applications (e.g., LMS), as data fields from such applications may differ from the default.
 - Update `main.py` to include filename(s) for the newly created module.
