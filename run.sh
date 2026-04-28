@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd ./sivf
-source ./venv/bin/activate
+cd /home/ji/Documents/data-projects/sivf
+source /home/ji/Documents/data-projects/sivf/.venv/bin/activate
 python main.py
 deactivate
