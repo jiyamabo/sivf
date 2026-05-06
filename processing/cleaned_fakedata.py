@@ -5,10 +5,10 @@ import numpy as np
 
 import os
 
-import gen
+# import gen
 
-# generate raw fake data & export to sub-directory
-gen.generate_fake_data()
+# # generate raw fake data & export to sub-directory
+# gen.generate_fake_data()
 
 # clean fake data
 # Set the directory containing the CSV files
