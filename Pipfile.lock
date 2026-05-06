@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "b7ec79931150d930db5f44804c7090c506d375788d9be771c7fe015b0a8f0d04"
+            "sha256": "1c6fa21326692e464822ef72ffbf6613e902dead02de47782898170af387e944"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -101,6 +101,15 @@
             ],
             "markers": "python_version >= '3.8'",
             "version": "==0.12.1"
+        },
+        "faker": {
+            "hashes": [
+                "sha256:20f3a6ec8c266b74d4c554e34118b21c3c2056c0b4a519d15c8decb3a4e6e795",
+                "sha256:71ab3c3370da9d2205ab74ffb0fd51273063ad562b3a3bb69d0026a20923e318"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.10'",
+            "version": "==40.15.0"
         },
         "fonttools": {
             "hashes": [

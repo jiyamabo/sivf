@@ -1,6 +1,12 @@
 import importlib.util
 from pathlib import Path
 
+import gen
+
+# generate raw fake data & export to sub-directory
+gen.generate_fake_data()
+gen.save_to_csv()
+
 # a python class to load multiple letterGrade modules
 class ModuleLoader:
     def __init__(self, base_path="./processing"):
@@ -18,8 +24,7 @@ class ModuleLoader:
         module_name = alias or module_path.stem
         
         spec = importlib.util.spec_from_file_location(
-            module_name, 
-            module_path
+            module_name, module_path
         )
         module = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(module)
@@ -46,7 +51,8 @@ def main():
     modules = loader.run_all([
         "winter26_bus239b_finals.py",
         "winter26_bus111a_finals.py",
-        "winter26_bus111e_finals.py"
+        "winter26_bus111e_finals.py",
+        "cleaned_fakedata.py"
     ])
     
 if __name__ == "__main__":
